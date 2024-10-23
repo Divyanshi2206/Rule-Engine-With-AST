@@ -1,5 +1,5 @@
 # Rule Engine Application
-Hosted link: https://rule-engine-with-ast-rldm.onrender.com/
+Hosted link: https://rule-engine-with-ast-2-udbu.onrender.com/
 
 ## Overview
 
@@ -64,7 +64,7 @@ This application is a rule engine that determines user eligibility based on attr
 4. **Start the Backend Server**
 
    ```bash
-   nodemon server.js
+   node server.js
    ```
 
 ## API Endpoints

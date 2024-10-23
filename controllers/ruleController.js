@@ -23,6 +23,7 @@ exports.createRule = async (req, res) => {
     if (!ruleName || !ruleString) {
       return res.status(400).json({ error: 'ruleName and ruleString are required' });
     }
+    
     const rootNode = parseRuleString(ruleString);
     const rule = new Rule({ ruleName, ruleAST: rootNode });
     await rule.save();
